@@ -8,8 +8,8 @@ export default class LogInForm extends React.Component {
   constructor () {
     super()
     this.state = {
-      email: '',
-      password: '',
+      email: 'ying@gmail.com',
+      password: '111111',
       error: '',
       loading: false
     }
