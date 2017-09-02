@@ -1,10 +1,12 @@
 import React from 'react'
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View, Image, Button } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 
 export default class Book extends React.Component {
   render () {
     const book = this.props.bookData
+    console.log('book=', book.key)
+    const handleAdd = this.props.handleAdd
     return (
       <View style={styles.container}>
         <Text style={styles.titleText}><Text style={styles.rankText}>#{book.rank}</Text> {book.title}</Text>
@@ -14,13 +16,14 @@ export default class Book extends React.Component {
           <Detail header='Description: ' body={book.description} />
           <Detail header='Author: ' body={book.author} />
           <Detail header='Publisher: ' body={book.publisher} />
+          <Detail header='Price: ' body={book.price} />
+          <Button title={'Buy'} onPress={() => handleAdd(0)} />
         </View>
       </View>
     )
   }
 }
 
-// const Hello = ({ text }) => <Text> Hello {text} </Text>
 const Detail = ({ header, body }) => <Text style={styles.detailText}><Text style={styles.boldText}>{header}: </Text>{body}</Text>
 
 const styles = StyleSheet.create({
@@ -43,7 +46,7 @@ const styles = StyleSheet.create({
   },
   image: {
     margin: 10,
-    flex: 2,
+    flex: 1,
     resizeMode: 'contain'
   },
   container: {

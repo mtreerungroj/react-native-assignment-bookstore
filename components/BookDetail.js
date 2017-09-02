@@ -1,13 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View, ListView, Image, TouchableHighlight } from 'react-native'
 
-const BookDetail = ({ handleRoute, book_image, title, contributor }) => (
+const BookDetail = ({ handleRoute, book_image, title, contributor, stock }) => (
   <TouchableHighlight onPress={handleRoute}>
     <View style={styles.container}>
       <Image source={{ uri: book_image }} style={styles.image} />
       <View style={styles.detailContainer}>
         <Text style={styles.titleText}>{title}</Text>
         <Text style={styles.authorText}>{contributor}</Text>
+        <Text style={styles.stockText}>Stock: {stock}</Text>
       </View>
     </View>
   </TouchableHighlight>
@@ -36,6 +37,11 @@ const styles = StyleSheet.create({
     fontSize: 16
   },
   authorText: {
+    fontSize: 14,
+    color: 'grey'
+  },
+  stockText: {
+    fontWeight: 'bold',
     fontSize: 14,
     color: 'grey'
   }
