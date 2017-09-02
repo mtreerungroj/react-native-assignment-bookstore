@@ -8,16 +8,12 @@ export default class LogInForm extends React.Component {
   constructor () {
     super()
     this.state = {
-      email: 'ying@gmail.com',
-      password: '111111',
-      error: '',
-      loading: false
+      email: '',
+      password: ''
     }
   }
 
   onLoginPress () {
-    this.setState({ error: '', loading: true })
-
     const { email, password } = this.state
     firebase
       .auth()

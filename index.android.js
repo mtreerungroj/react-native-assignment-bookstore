@@ -23,20 +23,20 @@ export default class fb01 extends Component {
     })
   }
 
-  onLoginPress = (email, password) => {
-    console.log(email, password)
-    firebase
-      .auth()
-      .signInWithEmailAndPassword(email, password)
-      .then(user => {
-        console.log('User successfully logged in')
-        this.setState({ isUser: true, isLoading: false })
-        Action.bookList()
-      })
-      .catch(err => {
-        console.error('User signin error', err)
-      })
-  }
+  // onLoginPress = (email, password) => {
+  //   console.log(email, password)
+  //   firebase
+  //     .auth()
+  //     .signInWithEmailAndPassword(email, password)
+  //     .then(user => {
+  //       console.log('User successfully logged in')
+  //       this.setState({ isUser: true, isLoading: false })
+  //       Action.bookList()
+  //     })
+  //     .catch(err => {
+  //       console.error('User signin error', err)
+  //     })
+  // }
 
   // onLogoutPress = () => {
   //   firebase
