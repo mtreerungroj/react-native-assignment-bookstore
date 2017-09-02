@@ -1,0 +1,759 @@
+{
+  "books": [
+    {
+      "rank": 1,
+      "rank_last_week": 0,
+      "weeks_on_list": 1,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "1455572101",
+      "primary_isbn13": "9781455572106",
+      "publisher": "Grand Central",
+      "description": "The TV journalist Kerra Bailey and former federal agent John Trapper join forces to expose a web of conspiracy behind a hotel bombing in Dallas.",
+      "price": 0,
+      "title": "SEEING RED",
+      "author": "Sandra Brown",
+      "contributor": "by Sandra Brown",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9781455572106.jpg",
+      "book_image_width": 326,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Seeing-Red-Sandra-Brown\/dp\/1455572101?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "1455572101",
+          "isbn13": "9781455572106"
+        },
+        {
+          "isbn10": "1455572071",
+          "isbn13": "9781455572076"
+        },
+        {
+          "isbn10": "1455572063",
+          "isbn13": "9781455572069"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9781455572106?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455572106"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Seeing-Red-Sandra-Brown\/dp\/1455572101?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rank_last_week": 0,
+      "weeks_on_list": 1,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0316395455",
+      "primary_isbn13": "9780316395458",
+      "publisher": "Little, Brown",
+      "description": "Two New York writers go undercover to expose the secrets of a powerful retailer.",
+      "price": 0,
+      "title": "THE STORE",
+      "author": "James Patterson and Richard DiLallo",
+      "contributor": "by James Patterson and Richard DiLallo",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780316395540.jpg",
+      "book_image_width": 318,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Store-James-Patterson-ebook\/dp\/B01MYGCHSG?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0316395455",
+          "isbn13": "9780316395458"
+        },
+        {
+          "isbn10": "0316395544",
+          "isbn13": "9780316395540"
+        },
+        {
+          "isbn10": "031639548X",
+          "isbn13": "9780316395489"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780316395458?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316395458"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Store-James-Patterson-ebook\/dp\/B01MYGCHSG?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rank_last_week": 2,
+      "weeks_on_list": 11,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0385543026",
+      "primary_isbn13": "9780385543026",
+      "publisher": "Doubleday",
+      "description": "A search for stolen rare manuscripts leads to a Florida island.",
+      "price": 0,
+      "title": "CAMINO ISLAND",
+      "author": "John Grisham",
+      "contributor": "by John Grisham",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780385543057.jpg",
+      "book_image_width": 326,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Camino-Island-Novel-John-Grisham-ebook\/dp\/B01N2ABE60?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "https:\/\/www.nytimes.com\/2017\/06\/12\/books\/review\/camino-island-john-grisham.html",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0385543026",
+          "isbn13": "9780385543026"
+        },
+        {
+          "isbn10": "0385543050",
+          "isbn13": "9780385543057"
+        },
+        {
+          "isbn10": "0385543069",
+          "isbn13": "9780385543064"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780385543026?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385543026"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Camino-Island-Novel-John-Grisham-ebook\/dp\/B01N2ABE60?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rank_last_week": 3,
+      "weeks_on_list": 5,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0316225983",
+      "primary_isbn13": "9780316225984",
+      "publisher": "Little, Brown",
+      "description": "Ren\u00e9e Ballard, a young detective with the L.A.P.D., investigates crimes against two women.",
+      "price": 0,
+      "title": "THE LATE SHOW",
+      "author": "Michael Connelly",
+      "contributor": "by Michael Connelly",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780316225984.jpg",
+      "book_image_width": 319,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Late-Show-Michael-Connelly\/dp\/0316225983?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0316225983",
+          "isbn13": "9780316225984"
+        },
+        {
+          "isbn10": "0316439924",
+          "isbn13": "9780316439923"
+        },
+        {
+          "isbn10": "0316225975",
+          "isbn13": "9780316225977"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780316225984?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316225984"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Late-Show-Michael-Connelly\/dp\/0316225983?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rank_last_week": 1,
+      "weeks_on_list": 2,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0399181199",
+      "primary_isbn13": "9780399181191",
+      "publisher": "Ballantine",
+      "description": "As Shay Benson begins her life anew, building a relationship with Pastor Drew Douglas, her brother's return threatens to undo it.",
+      "price": 0,
+      "title": "ANY DREAM WILL DO",
+      "author": "Debbie Macomber",
+      "contributor": "by Debbie Macomber",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780399181207.jpg",
+      "book_image_width": 326,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Any-Dream-Will-Do-Novel-ebook\/dp\/B01N08JNLG?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0399181199",
+          "isbn13": "9780399181191"
+        },
+        {
+          "isbn10": "0399181202",
+          "isbn13": "9780399181207"
+        },
+        {
+          "isbn10": "1524781142",
+          "isbn13": "9781524781149"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780399181191?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780399181191"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Any-Dream-Will-Do-Novel-ebook\/dp\/B01N08JNLG?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rank_last_week": 0,
+      "weeks_on_list": 1,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "1250099714",
+      "primary_isbn13": "9781250099716",
+      "publisher": "St. Martin's",
+      "description": "Bennie Rosato and Mary DiNunzio find themselves on opposite sides of a lawsuit, threatening their friendship and their law firm.",
+      "price": 0,
+      "title": "EXPOSED",
+      "author": "Lisa Scottoline",
+      "contributor": "by Lisa Scottoline",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9781250099730.jpg",
+      "book_image_width": 330,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Exposed-Rosato-DiNunzio-Lisa-Scottoline-ebook\/dp\/B01N5SDC9D?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "1250099714",
+          "isbn13": "9781250099716"
+        },
+        {
+          "isbn10": "1250099730",
+          "isbn13": "9781250099730"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9781250099716?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250099716"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Exposed-Rosato-DiNunzio-Lisa-Scottoline-ebook\/dp\/B01N5SDC9D?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rank_last_week": 4,
+      "weeks_on_list": 4,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "1501156004",
+      "primary_isbn13": "9781501156007",
+      "publisher": "Scout",
+      "description": "Four school friends reunite as their long-held secret threatens to emerge.",
+      "price": 0,
+      "title": "THE LYING GAME",
+      "author": "Ruth Ware",
+      "contributor": "by Ruth Ware",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9781501156007.jpg",
+      "book_image_width": 328,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Lying-Game-Novel-Ruth-Ware\/dp\/1501156004?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "1501156004",
+          "isbn13": "9781501156007"
+        },
+        {
+          "isbn10": "1501156195",
+          "isbn13": "9781501156199"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9781501156007?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501156007"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Lying-Game-Novel-Ruth-Ware\/dp\/1501156004?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rank_last_week": 0,
+      "weeks_on_list": 1,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0345543882",
+      "primary_isbn13": "9780345543882",
+      "publisher": "Ballantine",
+      "description": "Rizzoli and Isles investigate two separate homicides and uncover other dangerous mysteries.",
+      "price": 0,
+      "title": "I KNOW A SECRET",
+      "author": "Tess Gerritsen",
+      "contributor": "by Tess Gerritsen",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780345543899.jpg",
+      "book_image_width": 327,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Know-Secret-Rizzoli-Isles-Novel-ebook\/dp\/B01MXRA7WD?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0345543882",
+          "isbn13": "9780345543882"
+        },
+        {
+          "isbn10": "0345543890",
+          "isbn13": "9780345543899"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780345543882?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780345543882"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Know-Secret-Rizzoli-Isles-Novel-ebook\/dp\/B01MXRA7WD?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rank_last_week": 8,
+      "weeks_on_list": 39,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0670026190",
+      "primary_isbn13": "9780670026197",
+      "publisher": "Viking",
+      "description": "A Russian count undergoes 30 years of house arrest.",
+      "price": 0,
+      "title": "A GENTLEMAN IN MOSCOW",
+      "author": "Amor Towles",
+      "contributor": "by Amor Towles",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780670026197.jpg",
+      "book_image_width": 328,
+      "book_image_height": 495,
+      "amazon_product_url": "http:\/\/www.amazon.com\/Gentleman-Moscow-Novel-Amor-Towles\/dp\/0670026190?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "https:\/\/www.nytimes.com\/2016\/09\/25\/books\/review\/amor-towles-gentleman-in-moscow.html",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0670026190",
+          "isbn13": "9780670026197"
+        },
+        {
+          "isbn10": "0735221677",
+          "isbn13": "9780735221673"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780670026197?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780670026197"
+        },
+        {
+          "name": "Amazon",
+          "url": "http:\/\/www.amazon.com\/Gentleman-Moscow-Novel-Amor-Towles\/dp\/0670026190?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rank_last_week": 0,
+      "weeks_on_list": 1,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "073522112X",
+      "primary_isbn13": "9780735221123",
+      "publisher": "Pamela Dorman",
+      "description": "Karen Krupp's life is turned upside down when she suffers amnesia because of a car crash.",
+      "price": 0,
+      "title": "A STRANGER IN THE HOUSE",
+      "author": "Shari Lapena",
+      "contributor": "by Shari Lapena",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780735221123.jpg",
+      "book_image_width": 328,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Stranger-House-Shari-Lapena\/dp\/073522112X?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "073522112X",
+          "isbn13": "9780735221123"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780735221123?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780735221123"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Stranger-House-Shari-Lapena\/dp\/073522112X?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rank_last_week": 9,
+      "weeks_on_list": 6,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0062354345",
+      "primary_isbn13": "9780062354341",
+      "publisher": "Harper",
+      "description": "Gabriel Allon, the Israeli art restorer and spy, now the head of Israel\u2019s secret intelligence service, pursues an ISIS mastermind.",
+      "price": 0,
+      "title": "HOUSE OF SPIES",
+      "author": "Daniel Silva",
+      "contributor": "by Daniel Silva",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780062354365.jpg",
+      "book_image_width": 327,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/House-Spies-Novel-Gabriel-Allon\/dp\/0062354345?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0062354345",
+          "isbn13": "9780062354341"
+        },
+        {
+          "isbn10": "0062354361",
+          "isbn13": "9780062354365"
+        },
+        {
+          "isbn10": "0062354388",
+          "isbn13": "9780062354389"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780062354341?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062354341"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/House-Spies-Novel-Gabriel-Allon\/dp\/0062354345?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rank_last_week": 7,
+      "weeks_on_list": 2,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0062430246",
+      "primary_isbn13": "9780062430243",
+      "publisher": "Morrow",
+      "description": "The lawyer Charlotte Quinn is challenged when violence returns to her hometown of Pikesville.",
+      "price": 0,
+      "title": "THE GOOD DAUGHTER",
+      "author": "Karin Slaughter",
+      "contributor": "by Karin Slaughter",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780062430267.jpg",
+      "book_image_width": 328,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Good-Daughter-Novel-Karin-Slaughter-ebook\/dp\/B01N7BJZEA?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0062430246",
+          "isbn13": "9780062430243"
+        },
+        {
+          "isbn10": "0062430262",
+          "isbn13": "9780062430267"
+        },
+        {
+          "isbn10": "0062686836",
+          "isbn13": "9780062686831"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780062430243?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062430243"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Good-Daughter-Novel-Karin-Slaughter-ebook\/dp\/B01N7BJZEA?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rank_last_week": 12,
+      "weeks_on_list": 5,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0425284689",
+      "primary_isbn13": "9780425284681",
+      "publisher": "Ballantine",
+      "description": "A South Carolina lawyer, researching her grandmother\u2019s past, learns about a Tennessee orphanage that kidnapped children and placed them for adoption with wealthy people.",
+      "price": 0,
+      "title": "BEFORE WE WERE YOURS",
+      "author": "Lisa Wingate",
+      "contributor": "by Lisa Wingate",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780425284681.jpg",
+      "book_image_width": 330,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Before-We-Were-Yours-Novel\/dp\/0425284689?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0425284689",
+          "isbn13": "9780425284681"
+        },
+        {
+          "isbn10": "0425284697",
+          "isbn13": "9780425284698"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780425284681?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780425284681"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Before-We-Were-Yours-Novel\/dp\/0425284689?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rank_last_week": 10,
+      "weeks_on_list": 16,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "0735211205",
+      "primary_isbn13": "9780735211209",
+      "publisher": "Riverhead",
+      "description": "In this psychological thriller by the author of \u201cThe Girl on the Train,\u201d women are found drowned in a river in an English town.",
+      "price": 0,
+      "title": "INTO THE WATER",
+      "author": "Paula Hawkins",
+      "contributor": "by Paula Hawkins",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9780735211216.jpg",
+      "book_image_width": 328,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Into-Water-Novel-Paula-Hawkins-ebook\/dp\/B01N590V3K?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "0735211205",
+          "isbn13": "9780735211209"
+        },
+        {
+          "isbn10": "0735211213",
+          "isbn13": "9780735211216"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9780735211209?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780735211209"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Into-Water-Novel-Paula-Hawkins-ebook\/dp\/B01N590V3K?tag=NYTBS-20"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rank_last_week": 11,
+      "weeks_on_list": 3,
+      "asterisk": 0,
+      "dagger": 0,
+      "primary_isbn10": "1501144022",
+      "primary_isbn13": "9781501144028",
+      "publisher": "Scribner",
+      "description": "A divorced woman has a sexual awakening in the digital age.",
+      "price": 0,
+      "title": "MRS. FLETCHER",
+      "author": "Tom Perrotta",
+      "contributor": "by Tom Perrotta",
+      "contributor_note": "",
+      "book_image": "https:\/\/s1.nyt.com\/du\/books\/images\/9781501144028.jpg",
+      "book_image_width": 328,
+      "book_image_height": 495,
+      "amazon_product_url": "https:\/\/www.amazon.com\/Mrs-Fletcher-Novel-Tom-Perrotta\/dp\/1501144022?tag=NYTBS-20",
+      "age_group": "",
+      "book_review_link": "https:\/\/www.nytimes.com\/2017\/08\/01\/books\/review\/mrs-fletcher-tom-perrotta.html",
+      "first_chapter_link": "",
+      "sunday_review_link": "",
+      "article_chapter_link": "",
+      "isbns": [
+        {
+          "isbn10": "1501144022",
+          "isbn13": "9781501144028"
+        }
+      ],
+      "buy_links": [
+        {
+          "name": "Local Booksellers",
+          "url": "http:\/\/www.indiebound.org\/book\/9781501144028?aff=NYT"
+        },
+        {
+          "name": "Barnes and Noble",
+          "url": "http:\/\/www.anrdoezrs.net\/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501144028"
+        },
+        {
+          "name": "Amazon",
+          "url": "https:\/\/www.amazon.com\/Mrs-Fletcher-Novel-Tom-Perrotta\/dp\/1501144022?tag=NYTBS-20"
+        }
+      ]
+    }
+  ]
+}
