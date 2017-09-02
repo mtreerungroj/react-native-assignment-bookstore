@@ -24,12 +24,17 @@ export default class LogInForm extends React.Component {
       .signInWithEmailAndPassword(email, password)
       .then(user => {
         console.log('User successfully logged in', user)
+        // this.createBookShelf(user.uid)
         Actions.bookStore()
       })
       .catch(err => {
         console.error('User signin error', err)
       })
   }
+
+  // createBookShelf (uid) {
+  //   firebase.database().ref(`bookshelfs/${uid}`).set([{ '1455572101': 10 }])
+  // }
 
   render () {
     return (

@@ -1,14 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View, ListView, Image, TouchableHighlight } from 'react-native'
 
-const BookDetail = ({ handleRoute, book_image, title, contributor, stock }) => (
+const BookDetail = ({ handleRoute, book_image, title, contributor, totalBuy }) => (
   <TouchableHighlight onPress={handleRoute}>
     <View style={styles.container}>
       <Image source={{ uri: book_image }} style={styles.image} />
       <View style={styles.detailContainer}>
         <Text style={styles.titleText}>{title}</Text>
         <Text style={styles.authorText}>{contributor}</Text>
-        <Text style={styles.stockText}>Stock: {stock}</Text>
+        <Text style={styles.stockText}>Total Buy: {totalBuy}</Text>
       </View>
     </View>
   </TouchableHighlight>

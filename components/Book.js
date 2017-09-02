@@ -1,11 +1,19 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, Button } from 'react-native'
 import { Actions } from 'react-native-router-flux'
+import firebase from '../config/Firebase'
 
 export default class Book extends React.Component {
+  buyBook (primary_isbn10) {
+    firebase.database().ref(`bookshelfs/${this.uid}/${primary_isbn10}`).transaction(current_value => (current_value || 0) + 1)
+  }
+
+  componentWillMount = () => {
+    this.uid = firebase.auth().currentUser.uid
+  }
+
   render () {
     const book = this.props.bookData
-    console.log('book=', book.key)
     const handleAdd = this.props.handleAdd
     return (
       <View style={styles.container}>
@@ -17,7 +25,7 @@ export default class Book extends React.Component {
           <Detail header='Author: ' body={book.author} />
           <Detail header='Publisher: ' body={book.publisher} />
           <Detail header='Price: ' body={book.price} />
-          <Button title={'Buy'} onPress={() => handleAdd(0)} />
+          <Button title={'Buy'} onPress={() => this.buyBook(book.primary_isbn10)} />
         </View>
       </View>
     )
