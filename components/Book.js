@@ -27,7 +27,7 @@ export default class Book extends React.Component {
           <Detail header='Description: ' body={book.description} />
           <Detail header='Author: ' body={book.author} />
           <Detail header='Publisher: ' body={book.publisher} />
-          <Detail header='Price: ' body={book.price} />
+          <Detail header='Price: ' body={book.price + ' ฿'} />
           <View style={styles.buttonContainer}>
             <Button title={'Buy Here'} onPress={() => this.buyBookHere(book.primary_isbn10)} />
             <Button title={'Buy in Amazon'} onPress={() => this.buyBookAmazon(book.amazon_product_url)} />
@@ -38,7 +38,7 @@ export default class Book extends React.Component {
   }
 }
 
-const Detail = ({ header, body }) => <Text style={styles.detailText}><Text style={styles.boldText}>{header}: </Text>{body}</Text>
+const Detail = ({ header, body }) => <Text style={styles.detailText}><Text style={styles.boldText}>{header}</Text>{body}</Text>
 
 const styles = StyleSheet.create({
   boldText: {
