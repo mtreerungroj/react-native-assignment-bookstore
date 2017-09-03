@@ -4,8 +4,11 @@ import { Actions } from 'react-native-router-flux'
 import firebase from '../config/Firebase'
 
 export default class Book extends React.Component {
-  buyBook (primary_isbn10) {
+  buyBookHere (primary_isbn10) {
     firebase.database().ref(`bookshelfs/${this.uid}/${primary_isbn10}`).transaction(current_value => (current_value || 0) + 1).then(() => Actions.bookStore())
+  }
+  buyBookAmazon (amazon_product_url) {
+    Actions.amazonProduct({ amazon_product_url })
   }
 
   componentWillMount = () => {
@@ -25,7 +28,10 @@ export default class Book extends React.Component {
           <Detail header='Author: ' body={book.author} />
           <Detail header='Publisher: ' body={book.publisher} />
           <Detail header='Price: ' body={book.price} />
-          <Button title={'Buy'} onPress={() => this.buyBook(book.primary_isbn10)} />
+          <View style={styles.buttonContainer}>
+            <Button title={'Buy Here'} onPress={() => this.buyBookHere(book.primary_isbn10)} />
+            <Button title={'Buy in Amazon'} onPress={() => this.buyBookAmazon(book.amazon_product_url)} />
+          </View>
         </View>
       </View>
     )
@@ -60,5 +66,12 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
     flex: 1
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around'
+  },
+  button: {
+    margin: 10
   }
 })
