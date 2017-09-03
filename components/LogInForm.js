@@ -7,24 +7,26 @@ import { Actions } from 'react-native-router-flux'
 export default class LogInForm extends React.Component {
   constructor () {
     super()
-    this.state = {
-      email: '',
-      password: ''
-    }
+    // this.state = {
+    //   email: '',
+    //   password: ''
+    // }
   }
 
-  onLoginPress () {
-    const { email, password } = this.state
+  onLoginPress = (email, password, callback) => {
+    // const { email, password } = this.state
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then(user => {
+        callback(null, user)
         console.log('User successfully logged in', user)
         // this.createBookShelf(user.uid)
         Actions.bookStore()
       })
       .catch(err => {
-        console.error('User signin error', err)
+        callback(err)
+        // console.error('User signin error', err)
       })
   }
 
@@ -35,16 +37,7 @@ export default class LogInForm extends React.Component {
   render () {
     return (
       <View>
-        <TitledInput label='Email Address' placeholder='you@domain.com' value={this.state.email} onChangeText={email => this.setState({ email })} />
-        <TitledInput
-          label='Password'
-          autoCorrect={false}
-          placeholder='*******'
-          secureTextEntry
-          value={this.state.password}
-          onChangeText={password => this.setState({ password })}
-        />
-        <Button title='Log in' onPress={this.onLoginPress.bind(this)} />
+        <TitledInput onLoginPress={this.onLoginPress} />
       </View>
     )
   }
