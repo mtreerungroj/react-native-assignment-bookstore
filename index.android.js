@@ -57,7 +57,7 @@ export default class fb01 extends Component {
       : <Router>
         <Scene key='root' navigationBarStyle={{ backgroundColor: '#2980b9' }}>
           <Scene key='logIn' component={LogInForm} title='Login' initial />
-          <Scene key='bookStore' component={BookList} title='Book Store' />
+          <Scene key='bookStore' component={BookList} title='Book Store' onBack={() => {}} />
           <Scene key='book' component={Book} title='Detail' />
           <Scene key='amazonProduct' component={AmazonProduct} title='Amazon Product' />
         </Scene>

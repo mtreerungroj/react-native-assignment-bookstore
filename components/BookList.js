@@ -12,6 +12,10 @@ export default class BookList extends React.Component {
     this.totalBuys = []
   }
 
+  static navigationOptions = {
+    headerLeft: null
+  }
+
   componentDidMount () {
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
