@@ -29,6 +29,10 @@ export default class BookList extends React.Component {
         })
       }
     })
+    firebase.messaging().subscribeToTopic('promotion')
+    firebase.messaging().getToken().then(token => {
+      console.log('Device FCM Token: ', token)
+    })
   }
 
   getTotalBuy = primary_isbn10 => {
@@ -44,7 +48,6 @@ export default class BookList extends React.Component {
 
   handleToDoUpdate = snapshot => {
     this.books = snapshot.val() || {}
-
     console.log('books=', this.books)
 
     this.books = this.books.map(book => {
@@ -63,14 +66,14 @@ export default class BookList extends React.Component {
 
   // Add a new Book onto Firebase
   // If offline, this will still trigger an update to handleBookUpdate
-  addBook (bookId) {
-    firebase.database().ref('users/user1').push({ bookId })
-    console.log('added book')
-  }
+  // addBook (bookId) {
+  //   firebase.database().ref('users/user1').push({ bookId })
+  //   console.log('added book')
+  // }
 
   handleRoute = bookData => {
-    const handleAdd = this.addBook
-    return Actions.book({ bookData, handleAdd })
+    // const handleAdd = this.addBook
+    return Actions.book({ bookData }) //, handleAdd
   }
 
   _renderRow = rowData => {

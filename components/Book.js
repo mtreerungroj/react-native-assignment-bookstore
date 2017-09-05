@@ -17,7 +17,7 @@ export default class Book extends React.Component {
 
   render () {
     const book = this.props.bookData
-    const handleAdd = this.props.handleAdd
+    // const handleAdd = this.props.handleAdd
     return (
       <View style={styles.container}>
         <Text style={styles.titleText}><Text style={styles.rankText}>#{book.rank}</Text> {book.title}</Text>
