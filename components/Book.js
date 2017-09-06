@@ -30,7 +30,7 @@ export default class Book extends React.Component {
           <Detail header='Price: ' body={book.price + ' ฿'} />
           <View style={styles.buttonContainer}>
             <Button title={'Buy Here'} onPress={() => this.buyBookHere(book.primary_isbn10)} />
-            <Button title={'Buy in Amazon'} onPress={() => this.buyBookAmazon(book.amazon_product_url)} />
+            {book.amazon_product_url && <Button title={'Buy in Amazon'} onPress={() => this.buyBookAmazon(book.amazon_product_url)} />}
           </View>
         </View>
       </View>
