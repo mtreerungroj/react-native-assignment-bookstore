@@ -50,14 +50,18 @@ export default class BookList extends React.Component {
     this.books = snapshot.val() || {}
     console.log('books=', this.books)
 
-    this.books = this.books.map(book => {
-      /*
-       totalBuys = [ { "1455572101": 10 } ]
-      */
+    for (var [key, book] of Object.entries(this.books)) {
+      totalBuy = this.getTotalBuy(book.primary_isbn10)
+      book.totalBuy = totalBuy
+    }
 
-      book.totalBuy = this.getTotalBuy(book.primary_isbn10)
-      return book
-    })
+    // this.books = this.books.map(book => {
+    //   /*
+    //    totalBuys = [ { "1455572101": 10 } ]
+    //   */
+    //   book.totalBuy = this.getTotalBuy(book.primary_isbn10)
+    //   return book
+    // })
 
     this.setState({
       dataSource: this.state.dataSource.cloneWithRows(this.books)
