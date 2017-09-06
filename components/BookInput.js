@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, TextInput, StyleSheet, TouchableHighlight, Alert, Keyboard } from 'react-native'
 import t from 'tcomb-form-native'
 import { Actions } from 'react-native-router-flux'
+import ImagePicker from 'react-native-image-picker'
 
 var Form = t.form.Form
 // var options = {}
@@ -23,6 +24,15 @@ var options = {
   }
 }
 
+// More info on all the options is below in the README...just some common use cases shown here
+var ImageOptions = {
+  title: 'Choose a photo',
+  storageOptions: {
+    skipBackup: true,
+    path: 'images'
+  }
+}
+
 var Book = t.struct({
   title: t.String,
   author: t.String,
@@ -35,13 +45,16 @@ var Book = t.struct({
 export default class BookInput extends React.Component {
   state = {
     loading: false,
-    value: null
+    value: null,
+    path: '',
+    filename: '',
+    timestamp: ''
   }
-  onPress = () => {
+  onAddBookButton = () => {
     this.setState({ loading: true })
     var book = ({ title, author, publisher, description, isbn, price } = this.refs.form.getValue() || {})
-    if (Object.keys(book).length != 0) {
-      this.props.onSubmitPress(book, res => {
+    if (Object.keys(book).length != 0 && this.state.path.length) {
+      this.props.onSubmitPress(book, this.state.path, this.state.filename, this.state.timestamp, res => {
         this.setState({ loading: false })
         if (res === 'SUCCESS') {
           Alert.alert('Success', 'Your book is already added.', [{ text: 'OK', onPress: () => Actions.bookStore() }], { cancelable: false })
@@ -56,6 +69,28 @@ export default class BookInput extends React.Component {
     }
   }
 
+  onChoosePhotoButton = () => {
+    ImagePicker.showImagePicker(ImageOptions, response => {
+      console.log('Response = ', response)
+
+      if (response.didCancel) {
+        console.log('User cancelled image picker')
+      } else if (response.error) {
+        console.log('ImagePicker Error: ', response.error)
+      } else if (response.customButton) {
+        console.log('User tapped custom button: ', response.customButton)
+      } else {
+        // You can also display the image using data:
+        // let source = { uri: 'data:image/jpeg;base64,' + response.data };
+        var path = response.path + ''
+        var filename = response.fileName + ''
+        var timestamp = response.timestamp + ''
+
+        this.setState({ path, filename, timestamp })
+      }
+    })
+  }
+
   onChange = value => {
     this.setState({ value })
   }
@@ -64,11 +99,15 @@ export default class BookInput extends React.Component {
     const { inputStyle, labelStyle, containerStyle } = styles
     return (
       <View style={styles.container}>
+        <TouchableHighlight style={styles.button} onPress={this.onChoosePhotoButton} underlayColor='#99d9f4'>
+          <Text style={styles.buttonText}>Choose a photo...</Text>
+        </TouchableHighlight>
+
         {/* display */}
         <Form ref='form' type={Book} options={options} value={this.state.value} onChange={this.onChange} />
         <TouchableHighlight
           style={this.state.loading ? styles.disabledButton : styles.button}
-          onPress={this.onPress}
+          onPress={this.onAddBookButton}
           underlayColor='#99d9f4'
           disabled={this.state.loading}
         >
