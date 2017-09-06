@@ -76,6 +76,10 @@ export default class BookList extends React.Component {
     return Actions.book({ bookData }) //, handleAdd
   }
 
+  onAddBookPress = () => {
+    return Actions.addBook()
+  }
+
   _renderRow = rowData => {
     return <BookDetail {...rowData} handleRoute={() => this.handleRoute(rowData)} />
   }
@@ -83,6 +87,7 @@ export default class BookList extends React.Component {
   render () {
     return (
       <View>
+        <Button onPress={this.onAddBookPress} title='Add Book' color='#841584' />
         <ListView dataSource={this.state.dataSource} renderRow={this._renderRow} />
       </View>
     )

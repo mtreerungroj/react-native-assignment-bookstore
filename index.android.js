@@ -7,6 +7,7 @@ import BookList from './components/BookList'
 import Book from './components/Book'
 import LogInForm from './components/LogInForm'
 import AmazonProduct from './components/AmazonProduct'
+import BookForm from './components/BookForm'
 
 export default class fb01 extends Component {
   state = {
@@ -60,6 +61,7 @@ export default class fb01 extends Component {
           <Scene key='bookStore' component={BookList} title='Book Store' />
           <Scene key='book' component={Book} title='Detail' />
           <Scene key='amazonProduct' component={AmazonProduct} title='Amazon Product' />
+          <Scene key='addBook' component={BookForm} title='Add Book' />
         </Scene>
       </Router>
   }
