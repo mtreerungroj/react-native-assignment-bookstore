@@ -3,6 +3,7 @@ import { View, Text, TextInput, StyleSheet, TouchableHighlight, Alert, Keyboard 
 import t from 'tcomb-form-native'
 import { Actions } from 'react-native-router-flux'
 import ImagePicker from 'react-native-image-picker'
+import ImageResizer from 'react-native-image-resizer'
 
 var Form = t.form.Form
 // var options = {}
@@ -82,11 +83,21 @@ export default class BookInput extends React.Component {
       } else {
         // You can also display the image using data:
         // let source = { uri: 'data:image/jpeg;base64,' + response.data };
-        var path = response.path + ''
+
+        var imageUri = response.uri + ''
+        // console.log('imageUri', imageUri)
+        // var path = response.path + ''
         var filename = response.fileName + ''
         var timestamp = response.timestamp + ''
-
-        this.setState({ path, filename, timestamp })
+        ImageResizer.createResizedImage(imageUri, 328, 495, 'JPEG', 60).then(response => {
+          // console.log('response', response)
+          var path = response.path + ''
+          this.setState({ path, filename, timestamp })
+        })
+        // .catch(err => {
+        //   console.log('err', err)
+        //   Alert.alert('Oops, something went wrong', err)
+        // })
       }
     })
   }
