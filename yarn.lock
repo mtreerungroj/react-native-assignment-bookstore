@@ -3380,6 +3380,10 @@ react-native-firebase@^2.1.4:
     bows "^1.6.0"
     prop-types "^15.5.10"
 
+react-native-image-picker@^0.26.6:
+  version "0.26.6"
+  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-0.26.6.tgz#387f95dd61a6cd34ac6a7eda2744a3895fb3bc6f"
+
 react-native-router-flux@^4.0.0-beta.21:
   version "4.0.0-beta.21"
   resolved "https://registry.yarnpkg.com/react-native-router-flux/-/react-native-router-flux-4.0.0-beta.21.tgz#cdbb3cec5b18fab0ffdb8abf38ce790749f625d0"
