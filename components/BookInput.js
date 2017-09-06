@@ -1,27 +1,30 @@
 import React from 'react'
 import { View, Text, TextInput, StyleSheet, TouchableHighlight, Alert, Keyboard } from 'react-native'
 import t from 'tcomb-form-native'
+import { Actions } from 'react-native-router-flux'
 
 var Form = t.form.Form
 // var options = {}
 var options = {
-  // auto: 'placeholders',
   fields: {
+    title: {
+      autoFocus: true,
+      value: 'tt'
+    },
     description: {
-      // autoCapitalize: 'none',
-      // autoCorrect: false,
-      // secureTextEntry: true,
-      // underlineColorAndroid: 'transparent',
-      // blurOnSubmit: true,
-      multiline: true,
       numberOfLines: 3
+    },
+    isbn: {
+      label: 'ISBN Number'
+    },
+    price: {
+      label: 'Price (Baht)'
     }
   }
 }
 
-// here we are: define your domain model
 var Book = t.struct({
-  title: t.String, // a required string
+  title: t.String,
   author: t.String,
   publisher: t.String,
   description: t.String,
@@ -29,40 +32,40 @@ var Book = t.struct({
   price: t.Number
 })
 
-// var Book = t.struct({
-//   name: t.String, // a required string
-//   surname: t.maybe(t.String), // an optional string
-//   age: t.Number, // a required number
-//   rememberMe: t.Boolean // a boolean
-// })
-
 export default class BookInput extends React.Component {
   state = {
-    loading: false
+    loading: false,
+    value: null
   }
-  // onPress = () => {
-  //   this.setState({ loading: true })
-  //   var book = ({ title, author, publisher, description, isbn, price } = this.refs.form.getValue() || {})
-  //   if (!title || !author || !publisher || !description || !isbn || !price) {
-  //     this.setState({ loading: false })
-  //     Alert.alert('Error', 'Please fill in all information', [{ text: 'Try again', onPress: () => console.log('Try again pressed') }], { cancelable: false })
-  //   } else {
-  //     this.props.onSubmitPress(book, (err, user) => {
-  //       this.setState({ loading: false })
-  //       if (err != null) {
-  //         Alert.alert('Add failed', err.message, [{ text: 'Try again', onPress: () => console.log('Try again pressed') }], { cancelable: false })
-  //       }
-  //       Keyboard.dismiss()
-  //     })
-  //   }
-  // }
+  onPress = () => {
+    this.setState({ loading: true })
+    var book = ({ title, author, publisher, description, isbn, price } = this.refs.form.getValue() || {})
+    if (Object.keys(book).length != 0) {
+      this.props.onSubmitPress(book, res => {
+        this.setState({ loading: false })
+        if (res === 'SUCCESS') {
+          Alert.alert('Success', 'Your book is already added.', [{ text: 'OK', onPress: () => Actions.bookStore() }], { cancelable: false })
+        } else if (res != null) {
+          Alert.alert('Add failed', err.message, [{ text: 'Try again', onPress: () => console.log('Try again pressed') }], { cancelable: false })
+        }
+        Keyboard.dismiss()
+      })
+    } else {
+      this.setState({ loading: false })
+      Alert.alert('Error', 'Please fill in all information', [{ text: 'Try again', onPress: () => console.log('Try again pressed') }], { cancelable: false })
+    }
+  }
+
+  onChange = value => {
+    this.setState({ value })
+  }
 
   render () {
     const { inputStyle, labelStyle, containerStyle } = styles
     return (
       <View style={styles.container}>
         {/* display */}
-        <Form ref='form' type={Book} options={options} />
+        <Form ref='form' type={Book} options={options} value={this.state.value} onChange={this.onChange} />
         <TouchableHighlight
           style={this.state.loading ? styles.disabledButton : styles.button}
           onPress={this.onPress}
@@ -75,10 +78,6 @@ export default class BookInput extends React.Component {
     )
   }
 }
-// <View style={containerStyle}>
-//   <Text style={labelStyle}>{label.toUpperCase()}</Text>
-//   <TextInput autoCorrect={false} placeholder={placeholder} secureTextEntry={secureTextEntry} value={value} onChangeText={onChangeText} style={inputStyle} />
-// </View>
 
 var styles = StyleSheet.create({
   container: {

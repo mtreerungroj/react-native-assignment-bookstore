@@ -8,11 +8,16 @@ export default class BookForm extends React.Component {
   onSubmitPress = (book, callback) => {
     firebase
       .database()
-      .ref('books/')
-      .set({
-        ...this.books,
-        book
+      .ref('books')
+      .push({
+        title: book.title.toUpperCase(),
+        author: book.author,
+        publisher: book.publisher,
+        description: book.description,
+        primary_isbn10: book.isbn,
+        price: book.price
       })
+      .then(callback('SUCCESS'))
       .catch(err => {
         callback(err)
       })
@@ -22,7 +27,7 @@ export default class BookForm extends React.Component {
     return (
       <View>
         <ScrollView>
-          <BookInput onSubmitPress={this.onLoginPress} />
+          <BookInput onSubmitPress={this.onSubmitPress} />
         </ScrollView>
       </View>
     )
