@@ -138,6 +138,7 @@ dependencies {
     compile "com.facebook.react:react-native:+"  // From node_modules
 
     compile project(':react-native-image-picker')
+    compile project(':react-native-image-resizer')
     
     // RNFirebase required dependencies
     compile(project(':react-native-firebase')) {

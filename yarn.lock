@@ -3384,6 +3384,10 @@ react-native-image-picker@^0.26.6:
   version "0.26.6"
   resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-0.26.6.tgz#387f95dd61a6cd34ac6a7eda2744a3895fb3bc6f"
 
+react-native-image-resizer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-image-resizer/-/react-native-image-resizer-1.0.0.tgz#d47e14943c37938e287fbd639e4db7ceb7fd8917"
+
 react-native-router-flux@^4.0.0-beta.21:
   version "4.0.0-beta.21"
   resolved "https://registry.yarnpkg.com/react-native-router-flux/-/react-native-router-flux-4.0.0-beta.21.tgz#cdbb3cec5b18fab0ffdb8abf38ce790749f625d0"

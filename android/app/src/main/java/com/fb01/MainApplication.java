@@ -25,6 +25,7 @@ import io.invertase.firebase.perf.RNFirebasePerformancePackage; // Firebase Perf
 import io.invertase.firebase.storage.RNFirebaseStoragePackage; // Firebase Storage
 
 import com.imagepicker.ImagePickerPackage;
+import fr.bamlab.rnimageresizer.ImageResizerPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -48,7 +49,8 @@ public class MainApplication extends Application implements ReactApplication {
           new RNFirebaseMessagingPackage(),
           new RNFirebasePerformancePackage(),
           new RNFirebaseStoragePackage(),
-          new ImagePickerPackage()
+          new ImagePickerPackage(),
+          new ImageResizerPackage()
       );
     }
   };
