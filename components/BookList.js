@@ -90,7 +90,7 @@ export default class BookList extends React.Component {
 
   render () {
     return (
-      <View>
+      <View style={{ marginBottom: 40 }}>
         <Button onPress={this.onAddBookPress} title='Add Book' color='#841584' />
         <ListView dataSource={this.state.dataSource} renderRow={this._renderRow} />
       </View>
